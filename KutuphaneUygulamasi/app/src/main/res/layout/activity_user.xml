@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <ImageView
+        android:id="@+id/kitap_resim"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/cesuryenidunya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:id="@+id/yazar_isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/kitap_resim"
+        android:text="Aldous Huxley"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/kitap_isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/yazar_isim"
+        android:text="Cesur Yeni Dünya"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/kitap_ozet"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_below="@+id/kitap_isim"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Romanını Birinci ve İkinci Dünya Savaşları arasındaki dönemde kaleme alan Aldous Huxley,okurlara 30’lu yılların karamsar atmosferini güçlü bir şekilde hissettiriyor"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
